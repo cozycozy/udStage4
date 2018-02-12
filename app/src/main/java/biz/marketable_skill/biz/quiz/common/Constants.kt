@@ -15,6 +15,8 @@ val PREF_FILE_NAME = "biz.marketable_skill.biz.quiz.status"
 var isPassGrade1 = false
 var isPassGrade2 = false
 
+var isPaidGrade1 = false
+
 enum class PrefKey{
     PASS_GRADE1,
     PASS_GRADE2

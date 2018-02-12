@@ -6,6 +6,7 @@ import android.media.AudioManager
 import android.media.SoundPool
 import android.os.Build
 import biz.marketable_skill.biz.quiz.common.*
+import com.google.android.gms.ads.MobileAds
 import io.realm.Realm
 import io.realm.RealmConfiguration
 
@@ -21,6 +22,9 @@ class MyApplication : Application() {
         setSoundPool()
 
         loadStatus()
+
+        //Admobの初期化
+        MobileAds.initialize(this,getString(R.string.application_id_admob))
 
     }
 

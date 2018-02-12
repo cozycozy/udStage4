@@ -26,7 +26,7 @@
 
 
     <!--Admob広告ID TODO IDの追加要-->
-    <string name="application_id_admob">ca-app-pub-5244464205108027~7318382432</string>
+    <string name="application_id_admob">ca-app-pub-8249578490910824~1081962638</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
 
